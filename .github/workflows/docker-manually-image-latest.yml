@@ -44,4 +44,4 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           tags: |
-            docker.io/${{ secrets.DOCKER_USERNAME }}/n8n:latest
+            docker.io/${{ secrets.DOCKER_USERNAME }}/n8n:1.94.0
